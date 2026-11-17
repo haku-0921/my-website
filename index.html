@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>はくとの自己紹介</title>
+<style>
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: #000; background: #fff; font-family: system-ui, sans-serif; line-height: 1.9; overflow-wrap: anywhere; }
+a { color: #000; text-underline-offset: .2em; }
+a:hover { text-decoration-thickness: 3px; }
+a:focus-visible { outline: 3px solid #000; outline-offset: 4px; }
+header, main { width: min(800px, 100% - 40px); margin: 0 auto; }
+header { padding: 48px 0 20px; border-bottom: 3px solid #000; }
+h1 { margin: 0 0 16px; font-size: clamp(1.8rem, 6vw, 2.6rem); line-height: 1.35; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+main { padding: 8px 0 48px; }
+section { padding: 24px 0; border-bottom: 1px solid #000; scroll-margin-top: 16px; }
+h2 { margin: 0 0 12px; font-size: 1.4rem; }
+p { margin: 8px 0; }
+@media (max-width: 480px) {
+  header, main { width: calc(100% - 32px); }
+  header { padding-top: 32px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<header>
+<h1>はくとの自己紹介</h1>
+<nav aria-label="ページ内メニュー">
+<a href="#about">自己紹介</a>
+<a href="#learning">今学んでいること</a>
+<a href="#next">これからやってみたいこと</a>
+</nav>
+</header>
+<main>
+<section id="about">
+<h2>自己紹介</h2>
+<p>居酒屋で1年弱アルバイトをしていた時のことです。当時は、曜日ごとに来ない会社への発注による二重発注や、日常使わない物の発注、必要数以上の発注といったミスが頻繁に起こることが課題でした。</p>
+<p>そこで私はマニュアルを作成しました。作成にあたり計5時間ほど時間外労働が増えましたが、発注サイトで必要な物以外を非表示にし、冷蔵庫や冷凍庫に品名と必要数を明記する仕組みを整えました。</p>
+<p>その結果、6月から10月の期間で原価率が32%から28%に下がりました。</p>
+</section>
+<section id="learning">
+<h2>今学んでいること</h2>
+<p>情報工学を学んでいます。</p>
+</section>
+<section id="next">
+<h2>これからやってみたいこと</h2>
+<p>セキュリティに取り組んでみたいです。</p>
+<p>関連する公式サイト：<a href="https://www.ipa.go.jp/security/">IPA（情報処理推進機構）「情報セキュリティ」</a></p>
+</section>
+</main>
+</body>
+</html>
